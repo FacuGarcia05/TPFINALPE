@@ -1,0 +1,152 @@
+[
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿A que jugador Argentino se le otorgo el premio al 'Mejor Jugador Joven'?",
+        "respuesta": "Enzo Fernandez",
+        "incorrecta1" : "Nahuel Molina",
+        "incorrecta2" : "Alexis Mac Allister",
+        "incorrecta3" : "Julian Alvarez",
+        "imagen": "media/Galeria/Fernandez-Alvarez-MacAllister.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿Cuantos goles realizo Lionel Messi?",
+        "respuesta": "7",
+        "incorrecta1" : "6",
+        "incorrecta2" : "8",
+        "incorrecta3" : "5",
+        "imagen": "media/Galeria/messi_gol.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿Cuantos goles le anularon a la seleccion Argentina en el partido contra Arabia Saudita?",
+        "respuesta": "3",
+        "incorrecta1" : "1",
+        "incorrecta2" : "2",
+        "incorrecta3" : "4",
+        "imagen": "media/Galeria/var.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿Cuantos offsides hubo en total en el partido de Arabia Saudita?",
+        "respuesta": "11",
+        "incorrecta1" : "7",
+        "incorrecta2" : "15",
+        "incorrecta3" : "8",
+        "imagen": "media/Galeria/offside.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿Cuantos penales atajo el 'Dibu' Martinez en todo el mundial?",
+        "respuesta": "3",
+        "incorrecta1" : "2",
+        "incorrecta2" : "5",
+        "incorrecta3" : "4",
+        "imagen": "media/Galeria/dibuatajada.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿En que minuto fue la atajada de 'Dibu' Martinez a Kolo Muani?",
+        "respuesta": "122",
+        "incorrecta1" : "119",
+        "incorrecta2" : "90",
+        "incorrecta3" : "91",
+        "imagen": "media/Galeria/AtajadaDibu.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "Un tecnico, luego de la derrota contra Arabia Saudita, predijo que la seleccion Argentina iba a salir campeon mundial ¿De que equipo era ese tecnico?",
+        "respuesta": "Arabia Saudita",
+        "incorrecta1" : "Francia",
+        "incorrecta2" : "Mexico",
+        "incorrecta3" : "Polonia",
+        "imagen": "media/Galeria/scalonicopa.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿Cuantos metros recorrio Julian Alvarez antes de realizar el segundo gol a Croacia?",
+        "respuesta": "82",
+        "incorrecta1" : "94",
+        "incorrecta2" : "76",
+        "incorrecta3" : "67",
+        "imagen": "media/Galeria/goljuliancroacia.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿A quien le dijo Messi 'Que miras bobo' luego del partido contra Paises Bajos?",
+        "respuesta": "Wout Weghorst",
+        "incorrecta1" : "Louis van Gaal",
+        "incorrecta2" : "Noa Lang",
+        "incorrecta3" : "Frenkie de Jong",
+        "imagen": "media/Galeria/quemirasbobo.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "Quien de los siguientes jugadores no convirtio goles durante el Mundial",
+        "respuesta": "Lautaro Martinez",
+        "incorrecta1" : "Nahuel Molina",
+        "incorrecta2" : "Alexis Mac Allister",
+        "incorrecta3" : "Julian Alvarez",
+        "imagen": "media/Galeria/festejofrancia.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "Argentina jugo 7 partidos en total durante el mundial 2022, ¿Cuantos de ellos fueron en el Estadio Icónico de Lusail?",
+        "respuesta": "5",
+        "incorrecta1" : "6",
+        "incorrecta2" : "3",
+        "incorrecta3" : "2",
+        "imagen": "media/Estadios/lusailestadio.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "En el partido contra Paises Bajos, ¿cuantas tarjetas (Amarillas y Rojas) se mostraron en total?",
+        "respuesta": "19",
+        "incorrecta1" : "22",
+        "incorrecta2" : "15",
+        "incorrecta3" : "12",
+        "imagen": "media/Galeria/amarillas.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿Cual fue el partido en donde la seleccion Argentina tuvo el menor porcentaje de la posesion de la pelota? (39%)",
+        "respuesta": "Vs. Croacia",
+        "incorrecta1" : "Vs. Arabia Saudita",
+        "incorrecta2" : "Vs. Francia",
+        "incorrecta3" : "Vs. Paises Bajos",
+        "imagen": "media/Galeria/messivspolonia.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿Cuantos penales fueron cobrados a favor de la seleccion Argentina?",
+        "respuesta": "5",
+        "incorrecta1" : "4",
+        "incorrecta2" : "6",
+        "incorrecta3" : "7",
+        "imagen": "media/Galeria/Fernandez-Alvarez-MacAllister.jpg",
+        "object_fit":"contain"
+    },
+    {
+        "categoria" : "Trivia Mundialista 2022",
+        "pregunta" : "¿En que partido la seleccion Argentina recibio la mayor cantidad de faltas (30)?",
+        "respuesta": "Vs. Paises Bajos",
+        "incorrecta1" : "Vs. Arabia Saudita",
+        "incorrecta2" : "Vs. Mexico",
+        "incorrecta3" : "Vs. Australia",
+        "imagen": "media/Galeria/faltamessivsarabia.jpg",
+        "object_fit":"contain"
+    }
+]

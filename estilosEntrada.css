@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.content {
+    padding-top: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+#botonCampeones {
+    display: inline-block;
+    border: none;
+    height: 100px;
+    border-radius: 30px;
+    width: 350px;
+    background: black;
+    color: #E1C564;
+    font-size: 1.5em;
+    opacity: 0.7;
+}
+
+#botonCampeones:hover {
+    background: #E1C564;
+    color: black;
+}
+
+#playMute {
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 100%;
+}
+
+#playMute:hover {
+    background-color: black;
+}
+
+#hero {
+    min-height: 100vh;
+    position: relative;
+}
+
+#logo {
+    width: 30%;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Video detrás de las imágenes */
+}
+
+
+.slideshow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Asegura que las imágenes estén por encima del video */
+}
+
+.slides {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    display: none;
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}

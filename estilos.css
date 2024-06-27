@@ -1,0 +1,671 @@
+body {
+    background: linear-gradient(lightblue, #75aadb);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    background: linear-gradient(#8A1538, lightgrey);
+}
+
+h2 {
+    background: linear-gradient(#8A1538, lightgrey);
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer {
+    width: 100%;
+    background: linear-gradient(#006699, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    position: relative;
+}
+
+footer ul.menu {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul.menu li {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+footer ul.menu li a {
+    color: #fcbf45;
+    text-decoration: none;
+}
+
+footer p.text {
+    color: white;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #75aadb;
+    background: linear-gradient(#75aadb, lightblue);
+    color: white;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul li {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+#menu ul li a {
+    color: #fcbf45;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background: linear-gradient(white, lightblue);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+#menu ul li a:hover::before {
+    transform: scaleX(1);
+}
+
+#menu ul li a:hover {
+    transform: scale(1);
+    /* Aumenta ligeramente el tamaño */
+    color: #75aadb;
+}
+
+#content-main {
+    height: 100%;
+    position: relative;
+    padding-top: 600px;
+}
+
+#content {
+    height: 100%;
+    position: relative;
+}
+
+#video {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+
+#video video {
+    width: 100%;
+    height: auto;
+}
+
+#text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#textTabla {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    color: black;
+}
+
+#textEstadios {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+    margin: 20px auto;
+    padding-top: 20px;
+    color: black;
+}
+
+.trivia-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+.textTrivia {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#desarrollo {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#imgizq {
+    margin-right: 10px;
+    clear: both;
+}
+
+#imgder {
+    margin-left: 10px;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+.jugadores {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jugadores h2 {
+    text-align: center;
+}
+
+.jugadores-seccion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    /* Alinea los ítems al inicio */
+}
+
+.jugadores-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    /* Ajusta el tamaño de los ítems */
+    margin: 10px;
+    /* Espaciado entre ítems */
+    display: flex;
+    flex-direction: column;
+    /* Asegura que el contenido sea vertical */
+    justify-content: flex-start;
+    /* Alinea el contenido al inicio del contenedor */
+    align-items: center;
+    /* Centra el contenido horizontalmente */
+}
+
+.jugadores-item p {
+
+    margin: 10px 0;
+    padding: 0px 60px;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+}
+
+.jugadores-item ul {
+    margin: 10px 0;
+    padding: 0px 60px;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+/*MODALES*/
+
+.modal {
+    background: linear-gradient(#8A1538, lightgrey);
+}
+
+.abrir-modal {
+    display: inline-block;
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    width: 100px;
+    background: transparent;
+}
+
+.cerrar-modal {
+    border: none;
+    background: transparent;
+}
+
+/*Recorrido*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+
+}
+
+th,
+td {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.tabla {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.infoTabla {
+    background-color: #D0E7FF;
+    line-height: 1.5;
+    text-align: top;
+}
+
+.tablaPrincipal {
+    text-align: center;
+    background-color: #006699;
+    color: white;
+}
+
+.bandera {
+    display: inline-flex;
+    /* Mostrar en línea y flex para controlar alineación */
+    align-items: center;
+    /* Alinear verticalmente */
+}
+
+.bandera img {
+    width: 30px;
+    height: auto;
+    /* Altura automática para mantener la proporción */
+}
+
+.tabla-detalle {
+    display: none;
+    /* Oculta la tabla detallada por defecto */
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.btn-partido {
+    display: inline-flex;
+    /* Mostrar en línea y flex para controlar alineación */
+    align-items: center;
+    /* Alinear verticalmente */
+    border: none;
+    height: auto;
+    border-radius: 10px;
+    width: auto;
+    background: black;
+    color: #E1C564;
+    font-size: 1.5em;
+    opacity: 0.7;
+}
+
+.btn-partido:hover {
+    background: #E1C564;
+    transform: scale(1.05);
+    color: black;
+}
+
+.btn-partido img {
+    width: 30px;
+    height: auto;
+    /* Altura automática para mantener la proporción */
+}
+
+.bracket img {
+    width: 30px;
+    height: auto;
+    /* Altura automática para mantener la proporción */
+}
+
+
+.bracket {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.ronda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.partido {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    min-width: 150px;
+}
+
+.partido-arg {
+    background: linear-gradient(#75aadb, lightblue);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    min-width: 150px;
+}
+
+.partido-final {
+    background: linear-gradient(#E1C564, #b88a2d);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    min-width: 150px;
+}
+
+.team {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.score {
+    float: right;
+}
+
+.octavos .partido,
+.cuartos .partido,
+.semifinal .partido,
+.final .partido {
+    min-width: 200px;
+}
+
+/*TRIVIA*/
+.encabezado {
+    background: white;
+    min-width: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.categoria {
+    opacity: 0.3;
+    text-align: left;
+}
+
+.pregunta {
+    padding: 10px;
+}
+
+.imagen {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    background: white;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #E1C564;
+    transform: scale(1.05);
+}
+
+/*GALERIA*/
+.carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.imagenes img {
+    width: 600px;
+    height: auto;
+}
+
+.img {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
+    height: 600px;
+    width: 1000px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.atras img,
+.adelante img {
+    width: 100px;
+    height: auto;
+}
+
+.puntos {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.puntos p {
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: 700px;
+    color: black;
+}
+
+.puntos .bold {
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fcbf45;
+}
+
+/*ESTADIOS*/
+.estadios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(#75aadb, black);
+    border: 5px solid black;
+}
+
+.estadiosIN {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.estadio {
+    text-align: center;
+    margin: 10px;
+}
+
+.estadio img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.estadio span {
+    display: block;
+    margin-top: 5px;
+}
+
+.infoEstadio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(#75aadb, black);
+}
+
+.detalles {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.videoEstadio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.videoEstadio video {
+    width: 800px;
+}
+
+.modal-estadio {
+    background: linear-gradient(#75aadb, #006699);
+}
+
+.p-estadios-titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.p-estadios-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightgray;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+button.abrir-modal-estadio {
+    background: none;
+    border-radius: 45%;
+    border: none;
+    margin-top: 10px;
+}
+
+button.abrir-modal-estadio img {
+    width: 90px;
+    height: 90px;
+}
+
+button.cerrar-modal-estadio {
+    background: none;
+    border: none;
+    margin-top: 10px;
+}
+
+button.cerrar-modal-estadio img {
+    width: 50px;
+    height: 50px;
+}
+/*MODAL FOOTER*/
+label {
+    display: block;
+    margin-bottom: 1px;
+}
+input[type="text"], input[type="number"],
+select,
+textarea {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 12px;
+}
+textarea{
+    height: 100px;
+}
+.modal2{
+    background: linear-gradient(#75aadb, #006699);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+button.abrir-modal-sugerencia{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    color: #fcbf45;
+    text-decoration: none;
+}
+
+button.cerrar-modal-sugerencia {
+    background: none;
+    border: none;
+    margin-top: 10px;
+}
+

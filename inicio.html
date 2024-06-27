@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inicio</title>
+    <link rel='stylesheet' type='text/css' href='estilos.css'>
+</head>
+
+<body>
+    <div id="content-main">
+        <div id="menu">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="recorrido.html">Recorrido</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+                <li><a href="estadios.html">Estadios</a></li>
+                <li><a href="trivia.html">Trivia</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+        </div>
+        <div id="video">
+            <video id="inicioInicio" src="media/Inicio.mp4" autoplay loop muted>
+            </video>
+        </div>
+        <div id="text">
+            <h1> ¡Campeones del mundo 2022! </h1>
+            <div id="desarrollo">
+                Esta pagina esta dedicada a la seleccion Argentina de futbol, que se corono campeon de la Copa del mundo
+                en Qatar
+                un 18 de Diciembre del 2022.<br>
+                Aquí haremos un breve repaso de todo el material que se pueden encontrar a continuacion.<br>
+                <br>
+                <h2 align="left">Recorrido</h2>
+                <img align="left" id="imgizq" src="media/recorrido.png" width="30%">
+                <p>
+                    En la pestaña de recorrido, reviviremos como fue el paso de la seleccion en la copa, en donde
+                    empezamos con el pie izquierdo
+                    un 22 de Noviembre contra Arabia Saudita, temprano a las 7 de la mañana. Casi parecia que el pais
+                    entero habia presionado el boton de "pausa" de su
+                    rutina diaria, expectantes a este equipo que nos habia llenado de ilusion fruto de un trabajo que
+                    fue creciendo a lo largo de los
+                    meses previos.<br>
+                    Hasta llegar a esa final agonica contra Francia, en donde ya no nos quedaban lagrimas (ni uñas),
+                    donde vivimos mas de mil estados distintos
+                    en ese lapso de 139 minutos en donde viviamos, moriamos y reviviamos solo para volver a repetir el
+                    ciclo. <br>
+                    Ese dia se respetaron todas las creencias, todas las cabalas y se anularon millones de Mufa, y para
+                    suerte del pueblo Argentino.
+                    Nada de eso fue en vano, porque ese equipo se potencio de las ilusiones de la gente y logro dejar a
+                    Argentina en lo mas alto.
+                </p>
+
+                <h2 align="right">Equipo</h2>
+                <img align="right" id="imgder" src="media/Equipo.jpg" width="40%">
+                <p align="right">
+                    En este apartado podremos conocer a todo el plantel, jugadores y cuerpo tecnico. Todo un equipo que
+                    dejo todo por el amor
+                    a la seleccion, algunos dicen que fue su ultimo mundial y que nosotros solamente esperamos que sea
+                    una broma de mal gusto.<br>
+                    Mucho mas detalles sobre cada uno de ellos, goles, asistencias, atajadas, momentos previos y un poco
+                    mas.<br>
+                    A este equipo ¡Muchas Gracias!
+                </p>
+
+                <h2 align="left">Estadios</h2>
+                <img align="left" id="imgizq" src="media/Lusail.jpg" width="45%">
+                <p>
+                    descubriremos los magnificos estadios que fueron el epicentro de la Copa del Mundo 2022,
+                    donde se vivieron momentos inolvidables que quedaran grabados en la historia del futbol.<br>
+                    La magia de los estadios donde se escribieron algunas de las
+                    paginas mas emocionantes de nuestra seleccion.<br>
+                    Todo lo que tenes que saber, capacidad, partidos que se jugaron, ubicacion y mucho mas.
+                </p>
+
+                <h2 align="right">Trivia</h2>
+                <img align="right" id="imgder" src="media/trivia.jpg" width="50%">
+                <p>
+                    ¿Sos un verdadero fanatico de la Albiceleste? Demostra cuanto sabes sobre el paso de la seleccion
+                    argentina
+                    participando en nuestra trivia.<br>
+                    Desde los momentos mas icónicos hasta los detalles que nunca vamos a poder olvidar,
+                    ¡esta es tu oportunidad para brillar como lo hizo nuestro capitan!
+                </p>
+
+                <h2 align="left">Galeria</h2>
+                <img align="left" id="imgizq" src="media/galeria.jpg" width="30%">
+                <p>
+                    Los momentos mas memorables de la selección argentina en nuestra galeria de fotos.
+                    Desde las victorias epicas hasta los instantes mas emotivos,
+                    Las imagenes que capturan la esencia y la pasion del futbol argentino.<br>
+                    Disfruta de fotografias que inmortalizan los goles legendarios, las celebraciones inolvidables
+                    y los partidos historicos que marcaron la trayectoria de la Albiceleste.
+                </p>
+                <h2></h2>
+            </div>
+        </div>
+        <footer>
+            <div class="grupo-1">
+                <ul class="menu">
+                    <li class="menu-elementos">
+                        <a href="#inicioInicio" class="menu-icon">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="menu-elementos">
+                        <a href="https://pedco.uncoma.edu.ar/" class="menu-icon">
+                            Pedco
+                        </a>
+                    </li>
+                    <li class="menu-elementos">
+                        <div class="menu-icon">
+                            <button class="abrir-modal-sugerencia">Sugerencias</button>
+                            <dialog close class="modal2">
+                                <p>
+                                <form>
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" id="nombre" name="nombre"><br>
+
+                                    <label for="telefono">Telefono:</label>
+                                    <input type="number" id="telefono" name="telefono"><br>
+
+                                    <label for="email">Email:</label>
+                                    <input type="text" id="email" name="email"><br>
+
+                                    <label for="sugerencia">Sugerencias:</label><br>
+                                    <textarea id="sugerencia" name="sugerencia"></textarea><br>
+
+                                    <input type="submit" onclick="return validar();">
+                                    <input type="reset">
+                                </form>
+                                </p>
+                                <button class="cerrar-modal-sugerencia"><img src="media/x.png" width="8%"></button>
+                            </dialog>
+                        </div>
+                    </li>
+                    <li class="menu-elementos">
+                        <a href="https://pedco.uncoma.edu.ar/user/view.php?id=125423&course=744" class="menu-icon">
+                            Sobre Mi
+                        </a>
+                    </li>
+                </ul>
+                <p class="text" align="center">2024 | Todos los derechos reservados </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src='scripts.js'></script>
+</body>
+
+</html>

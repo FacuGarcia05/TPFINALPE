@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div id="content">
+        <div id="menu">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="recorrido.html">Recorrido</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+                <li><a href="estadios.html">Estadios</a></li>
+                <li><a href="trivia.html">Trivia</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+        </div>
+
+        <div class="trivia-container" id="inicioTrivia">
+            <div class="textTrivia">
+                <div class="puntaje" id="puntaje"></div>
+                <div class="encabezado">
+                    <div class="categoria" id="categoria">
+                    </div>
+                    <div class="numero" id="numero"></div>
+                    <div class="pregunta" id="pregunta">
+                    </div>
+                    <img src="#" class="imagen" id="imagen">
+                </div>
+                <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+                <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+                <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+                <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="grupo-1">
+            <ul class="menu">
+                <li class="menu-elementos">
+                    <a href="#inicioTrivia" class="menu-icon">
+                        Inicio
+                    </a>
+                </li>
+                <li class="menu-elementos">
+                    <a href="https://pedco.uncoma.edu.ar/" class="menu-icon">
+                        Pedco
+                    </a>
+                </li>
+                <li class="menu-elementos">
+                    <div class="menu-icon">
+                        <button class="abrir-modal-sugerencia">Sugerencias</button>
+                        <dialog close class="modal2">
+                            <p>
+                            <form>
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre"><br>
+
+                                <label for="telefono">Telefono:</label>
+                                <input type="number" id="telefono" name="telefono"><br>
+
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="email"><br>
+
+                                <label for="sugerencia">Sugerencias:</label><br>
+                                <textarea id="sugerencia" name="sugerencia"></textarea><br>
+
+                                <input type="submit" onclick="return validar();">
+                                <input type="reset">
+                            </form>
+                            </p>
+                            <button class="cerrar-modal-sugerencia"><img src="media/x.png" width="8%"></button>
+                        </dialog>
+                    </div>
+                </li>
+                <li class="menu-elementos">
+                    <a href="https://pedco.uncoma.edu.ar/user/view.php?id=125423&course=744" class="menu-icon">
+                        Sobre Mi
+                    </a>
+                </li>
+            </ul>
+            <p class="text" align="center">2024 | Todos los derechos reservados </p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>

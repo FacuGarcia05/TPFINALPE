@@ -6,7 +6,7 @@
         "incorrecta1" : "Nahuel Molina",
         "incorrecta2" : "Alexis Mac Allister",
         "incorrecta3" : "Julian Alvarez",
-        "imagen": "media/Galeria/Fernandez-Alvarez-MacAllister.jpg",
+        "imagen": "https://i.ibb.co/nm2GJvr/Fernandez-Alvarez-Mac-Allister.jpg",
         "object_fit":"contain"
     },
     {
@@ -16,7 +16,7 @@
         "incorrecta1" : "6",
         "incorrecta2" : "8",
         "incorrecta3" : "5",
-        "imagen": "media/Galeria/messi_gol.jpg",
+        "imagen": "https://i.ibb.co/FK2tWZh/messi-gol.jpg",
         "object_fit":"contain"
     },
     {
@@ -26,7 +26,7 @@
         "incorrecta1" : "1",
         "incorrecta2" : "2",
         "incorrecta3" : "4",
-        "imagen": "media/Galeria/var.jpg",
+        "imagen": "https://i.ibb.co/p2G2X33/var.jpg",
         "object_fit":"contain"
     },
     {
@@ -36,7 +36,7 @@
         "incorrecta1" : "7",
         "incorrecta2" : "15",
         "incorrecta3" : "8",
-        "imagen": "media/Galeria/offside.jpg",
+        "imagen": "https://i.ibb.co/ChPPZmN/offside.jpg",
         "object_fit":"contain"
     },
     {
@@ -46,7 +46,7 @@
         "incorrecta1" : "2",
         "incorrecta2" : "5",
         "incorrecta3" : "4",
-        "imagen": "media/Galeria/dibuatajada.jpg",
+        "imagen": "https://i.ibb.co/wLVkNWD/dibuatajada.jpg",
         "object_fit":"contain"
     },
     {
@@ -56,7 +56,7 @@
         "incorrecta1" : "119",
         "incorrecta2" : "90",
         "incorrecta3" : "91",
-        "imagen": "media/Galeria/AtajadaDibu.jpg",
+        "imagen": "https://i.ibb.co/PtJfCK3/Atajada-Dibu.jpg",
         "object_fit":"contain"
     },
     {
@@ -66,7 +66,7 @@
         "incorrecta1" : "Francia",
         "incorrecta2" : "Mexico",
         "incorrecta3" : "Polonia",
-        "imagen": "media/Galeria/scalonicopa.jpg",
+        "imagen": "https://i.ibb.co/Stvjh0m/scalonicopa.jpg",
         "object_fit":"contain"
     },
     {
@@ -76,7 +76,7 @@
         "incorrecta1" : "94",
         "incorrecta2" : "76",
         "incorrecta3" : "67",
-        "imagen": "media/Galeria/goljuliancroacia.jpg",
+        "imagen": "https://i.ibb.co/mT2zD8Y/goljuliancroacia.jpg",
         "object_fit":"contain"
     },
     {
@@ -86,7 +86,7 @@
         "incorrecta1" : "Louis van Gaal",
         "incorrecta2" : "Noa Lang",
         "incorrecta3" : "Frenkie de Jong",
-        "imagen": "media/Galeria/quemirasbobo.jpg",
+        "imagen": "https://i.ibb.co/hfpZXpt/quemirasbobo.jpg",
         "object_fit":"contain"
     },
     {
@@ -96,7 +96,7 @@
         "incorrecta1" : "Nahuel Molina",
         "incorrecta2" : "Alexis Mac Allister",
         "incorrecta3" : "Julian Alvarez",
-        "imagen": "media/Galeria/festejofrancia.jpg",
+        "imagen": "https://i.ibb.co/WzYG4v4/festejofrancia.jpg",
         "object_fit":"contain"
     },
     {
@@ -106,7 +106,7 @@
         "incorrecta1" : "6",
         "incorrecta2" : "3",
         "incorrecta3" : "2",
-        "imagen": "media/Estadios/lusailestadio.jpg",
+        "imagen": "https://i.ibb.co/sjDrT8v/lusailestadio.jpg",
         "object_fit":"contain"
     },
     {
@@ -116,7 +116,7 @@
         "incorrecta1" : "22",
         "incorrecta2" : "15",
         "incorrecta3" : "12",
-        "imagen": "media/Galeria/amarillas.jpg",
+        "imagen": "https://i.ibb.co/KWxDLXH/amarillas.jpg",
         "object_fit":"contain"
     },
     {
@@ -126,7 +126,7 @@
         "incorrecta1" : "Vs. Arabia Saudita",
         "incorrecta2" : "Vs. Francia",
         "incorrecta3" : "Vs. Paises Bajos",
-        "imagen": "media/Galeria/messivspolonia.jpg",
+        "imagen": "https://i.ibb.co/P9hNyzv/messivspolonia.jpg",
         "object_fit":"contain"
     },
     {
@@ -136,7 +136,7 @@
         "incorrecta1" : "4",
         "incorrecta2" : "6",
         "incorrecta3" : "7",
-        "imagen": "media/Galeria/Fernandez-Alvarez-MacAllister.jpg",
+        "imagen": "https://i.ibb.co/nm2GJvr/Fernandez-Alvarez-Mac-Allister.jpg",
         "object_fit":"contain"
     },
     {
@@ -146,7 +146,7 @@
         "incorrecta1" : "Vs. Arabia Saudita",
         "incorrecta2" : "Vs. Mexico",
         "incorrecta3" : "Vs. Australia",
-        "imagen": "media/Galeria/faltamessivsarabia.jpg",
+        "imagen": "https://i.ibb.co/mb9CmJW/faltamessivsarabia.jpg",
         "object_fit":"contain"
     }
 ]

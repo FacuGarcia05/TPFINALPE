@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const muchachos = document.getElementById('muchachos');
     const playMute = document.getElementById('playMute');
-    const playImage = 'media/sonido.png'; // Ruta de la imagen para reproducir
-    const pauseImage = 'media/mute.png'; // Ruta de la imagen para pausar
+    const playImage = 'https://i.ibb.co/9bRNYX8/sonido.png'; // Ruta de la imagen para reproducir
+    const pauseImage = 'https://i.ibb.co/YTzKpjc/mute.png'; // Ruta de la imagen para pausar
 
     playMute.addEventListener('click', toggleMusic);
 
